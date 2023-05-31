@@ -1,0 +1,181 @@
+.resume-bg {
+  background-color: #15161a;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+}
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 80px;
+  margin: 0px 50px;
+  border: 2px dashed #8d4dfd;
+  padding: 5px;
+}
+.name-heading {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: #ffffff;
+  margin-right: 5px;
+}
+.role-heading {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+}
+.social-media-details {
+  margin: 0px 50px;
+  line-height: 0.5;
+}
+.name-container {
+  display: flex;
+  align-items: center;
+}
+.social-icon {
+  font-size: 25px;
+}
+.social-media-container {
+  display: flex;
+  align-items: center;
+}
+.text-style {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: 8px;
+}
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+hr {
+  border: 1px dashed #8d4dfd;
+}
+.description {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+.icon {
+  width: 35px;
+  height: 35px;
+}
+.sub-heading {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  color: #ffffff;
+  margin-left: 10px;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+.education-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  color: #ffffff;
+}
+.group {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #8d4dfd;
+}
+.year-of-pass {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
+.skill-list {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
+.custom-list-1 {
+  list-style-type: none; /* Remove default list styles */
+  line-height: 1.9;
+}
+
+.custom-list-1 li::before {
+  content: "\2022"; /* Unicode bullet character (•) */
+  margin-right: 10px; /* Add spacing between bullet and list item */
+  color: #8d4dfd; /* Customize the bullet color */
+  font-size: 20px;
+}
+.custom-list-2 {
+  list-style-type: none; /* Remove default list styles */
+  line-height: 2;
+}
+
+.custom-list-2 li::before {
+  content: "\25CB"; /* Unicode hollow circle character (○) */
+  margin-right: 10px; /* Add spacing between bullet and list item */
+  color: #8d4dfd; /* Customize the bullet color */
+}
+.project-heading {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 20px;
+  color: #ffffff;
+}
+.project-description {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+@media screen and (min-width: 767px) {
+  .profile-sub-container {
+    margin: 20px 180px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .image {
+    width: 100px;
+    height: 100px;
+  }
+  .name-heading {
+    font-size: 18px;
+  }
+  .role-heading {
+    font-size: 15px;
+  }
+  .image {
+    margin: 0px 23px;
+  }
+  .social-media-details {
+    margin: 0px 23px;
+  }
+}
