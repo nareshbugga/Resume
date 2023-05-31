@@ -16,7 +16,7 @@
   height: 150px;
   border-radius: 80px;
   border: 2px dashed #8d4dfd;
-  padding: 5px;
+  padding: 3px;
 }
 .name-heading {
   font-family: "Arial";
@@ -41,8 +41,8 @@
   align-items: center;
 }
 .social-icon {
-  font-size: 26px;
-  margin-right: 15px;
+  font-size: 25px;
+  margin-right: 8px;
 }
 .social-media-container {
   display: flex;
@@ -117,7 +117,7 @@ hr {
   font-family: "Calibri";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
 }
 .custom-list-1 {
@@ -168,14 +168,14 @@ hr {
   .image {
     width: 100px;
     height: 100px;
-    margin: 0px 30px;
+    margin: 0px 15px;
   }
-
   .name-heading {
-    font-size: 15px;
+    font-size: 12px;
+    margin-right: 5px;
   }
   .role-heading {
-    font-size: 12px;
+    font-size: 10px;
   }
   .name {
     font-size: 16px;
@@ -191,5 +191,11 @@ hr {
   }
   .project-description {
     font-size: 15px;
+  }
+  .text-style {
+    font-size: 14px;
+  }
+  .social-icon {
+    font-size: 20px;
   }
 }
