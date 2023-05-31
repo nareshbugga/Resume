@@ -34,12 +34,12 @@ function Resume() {
             <TbBrandLinkedin color="#C19CFE" className="social-icon" />
             <p>
               <a
-                href="https://www.linkedin.com/in/pujala-bhanuprakash-a62666192"
+                href="https://www.linkedin.com/in/pujala-bhanuprakash"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`text-style ${"link"}`}
               >
-                linkedin.com/in/pujala-bhanuprakash-a62666192
+                linkedin.com/in/pujala-bhanuprakash
               </a>
             </p>
           </div>
